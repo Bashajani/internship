@@ -25,6 +25,12 @@ I need to change host name as MSR-test-Instance-1
 And press Esc button :wq and press enter key 
 Then restart your instances and re login the putty then it change the host name of your instances. 
 
+Then ofter we need to install ansible configuration tool.
+---------------------------------------------------------
+$ sudo apt-add-repository ppa:ansible/ansible
+$ sudo apt-get update
+$ sudo apt-get install ansible
+
 
 Note: all the configuration files has been done through using ansible-playbook same has been commit/push from git local repository to github remote repository.
 Please login into my github account and check the configuration files.
